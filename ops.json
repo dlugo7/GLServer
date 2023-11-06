@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "da91b2e6-2e02-4ddf-a776-a9fb157f5e24",
+    "name": "kellbelle",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "3cea6835-bad7-4865-b6b7-f82131e87f88",
+    "name": "Tas",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "5eef3558-701b-4dce-a449-fdbc75ef2a69",
+    "name": "Samurike",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
