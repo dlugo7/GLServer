@@ -1394,9 +1394,11 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2023-11-07 13:16:41 -0500",
       "minecraft:skeleton": "2023-10-31 18:00:28 -0400",
       "minecraft:spider": "2023-10-31 19:22:11 -0400",
       "minecraft:creeper": "2023-10-31 18:25:43 -0400",
+      "minecraft:witch": "2023-11-07 16:20:14 -0500",
       "minecraft:zombie": "2023-10-31 17:44:44 -0400"
     },
     "done": false
@@ -2933,6 +2935,7 @@
       "baked_potato": "2023-10-31 18:07:12 -0400",
       "apple": "2023-10-31 18:18:27 -0400",
       "pumpkin_pie": "2023-10-31 19:21:52 -0400",
+      "bread": "2023-11-09 14:23:33 -0500",
       "cooked_chicken": "2023-10-31 18:23:36 -0400"
     },
     "done": false
@@ -8279,6 +8282,60 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2023-11-03 13:49:14 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "tomato_seeds": "2023-11-03 13:49:22 -0400"
+    },
+    "done": true
+  },
+  "burgermod:recipes/food/fried_scrambled_egg_from_campfire": {
+    "criteria": {
+      "has_scrambled_egg": "2023-11-03 13:49:22 -0400"
+    },
+    "done": true
+  },
+  "burgermod:recipes/food/fried_scrambled_egg_from_smelting": {
+    "criteria": {
+      "has_scrambled_egg": "2023-11-03 13:49:22 -0400"
+    },
+    "done": true
+  },
+  "burgermod:recipes/food/fried_scrambled_egg_from_smoker": {
+    "criteria": {
+      "has_scrambled_egg": "2023-11-03 13:49:22 -0400"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/tools/universal_owner_changer": {
+    "criteria": {
+      "has_name_tag": "2023-11-03 13:49:22 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/safety_net": {
+    "criteria": {
+      "has_rope": "2023-11-03 13:49:23 -0400"
+    },
+    "done": true
+  },
+  "burgermod:husbandry/craft_golden_burger": {
+    "criteria": {
+      "golden_burgers": "2023-11-03 13:49:26 -0400"
+    },
+    "done": true
+  },
+  "lootr:25loot": {
+    "criteria": {
+      "loot_stat": "2023-11-03 13:51:03 -0400"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/stripped_warped_kitchen_sink_light": {
     "criteria": {
       "has_bucket": "2023-11-03 13:51:31 -0400"
@@ -8375,12 +8432,6 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/building_blocks/jacaranda_wood": {
-    "criteria": {
-      "has_log": "2023-11-03 14:05:18 -0400"
-    },
-    "done": true
-  },
   "cfm:recipes/decorations/cyan_kitchen_sink": {
     "criteria": {
       "has_bucket": "2023-11-03 13:51:31 -0400"
@@ -8402,12 +8453,6 @@
   "cfm:recipes/decorations/stripped_birch_kitchen_sink_dark": {
     "criteria": {
       "has_bucket": "2023-11-03 13:51:31 -0400"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/safety_net": {
-    "criteria": {
-      "has_rope": "2023-11-03 13:49:23 -0400"
     },
     "done": true
   },
@@ -8435,33 +8480,9 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/building_blocks/jacaranda_planks": {
-    "criteria": {
-      "has_logs": "2023-11-03 14:05:18 -0400"
-    },
-    "done": true
-  },
-  "burgermod:husbandry/craft_golden_burger": {
-    "criteria": {
-      "golden_burgers": "2023-11-03 13:49:26 -0400"
-    },
-    "done": true
-  },
   "cfm:recipes/decorations/stripped_mangrove_kitchen_sink_light": {
     "criteria": {
       "has_bucket": "2023-11-03 13:51:31 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/fermented_spider_eye": {
-    "criteria": {
-      "has_spider_eye": "2023-11-03 13:49:14 -0400"
-    },
-    "done": true
-  },
-  "minecraft:adventure/avoid_vibration": {
-    "criteria": {
-      "avoid_vibration": "2023-11-03 13:52:41 -0400"
     },
     "done": true
   },
@@ -8486,12 +8507,6 @@
   "cfm:recipes/decorations/stripped_mangrove_kitchen_sink_dark": {
     "criteria": {
       "has_bucket": "2023-11-03 13:51:31 -0400"
-    },
-    "done": true
-  },
-  "farmersdelight:main/get_fd_seed": {
-    "criteria": {
-      "tomato_seeds": "2023-11-03 13:49:22 -0400"
     },
     "done": true
   },
@@ -8525,12 +8540,6 @@
     },
     "done": true
   },
-  "lootr:25loot": {
-    "criteria": {
-      "loot_stat": "2023-11-03 13:51:03 -0400"
-    },
-    "done": true
-  },
   "cfm:recipes/decorations/birch_kitchen_sink_light": {
     "criteria": {
       "has_bucket": "2023-11-03 13:51:31 -0400"
@@ -8552,12 +8561,6 @@
   "cfm:recipes/decorations/stripped_crimson_kitchen_sink_dark": {
     "criteria": {
       "has_bucket": "2023-11-03 13:51:31 -0400"
-    },
-    "done": true
-  },
-  "burgermod:recipes/food/fried_scrambled_egg_from_campfire": {
-    "criteria": {
-      "has_scrambled_egg": "2023-11-03 13:49:22 -0400"
     },
     "done": true
   },
@@ -8591,18 +8594,6 @@
     },
     "done": true
   },
-  "burgermod:recipes/food/fried_scrambled_egg_from_smelting": {
-    "criteria": {
-      "has_scrambled_egg": "2023-11-03 13:49:22 -0400"
-    },
-    "done": true
-  },
-  "burgermod:recipes/food/fried_scrambled_egg_from_smoker": {
-    "criteria": {
-      "has_scrambled_egg": "2023-11-03 13:49:22 -0400"
-    },
-    "done": true
-  },
   "cfm:recipes/decorations/crimson_kitchen_sink_dark": {
     "criteria": {
       "has_bucket": "2023-11-03 13:51:31 -0400"
@@ -8615,12 +8606,6 @@
     },
     "done": true
   },
-  "securitycraft:recipes/tools/universal_owner_changer": {
-    "criteria": {
-      "has_name_tag": "2023-11-03 13:49:22 -0400"
-    },
-    "done": true
-  },
   "cfm:recipes/decorations/red_kitchen_sink": {
     "criteria": {
       "has_bucket": "2023-11-03 13:51:31 -0400"
@@ -8630,6 +8615,708 @@
   "cfm:recipes/decorations/stripped_spruce_kitchen_sink_dark": {
     "criteria": {
       "has_bucket": "2023-11-03 13:51:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2023-11-03 13:52:41 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/jacaranda_wood": {
+    "criteria": {
+      "has_log": "2023-11-03 14:05:18 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/jacaranda_planks": {
+    "criteria": {
+      "has_logs": "2023-11-03 14:05:18 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/baked_cod_stew": {
+    "criteria": {
+      "has_any_ingredient": "2023-11-06 15:09:34 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/beef_stew": {
+    "criteria": {
+      "has_any_ingredient": "2023-11-06 15:09:34 -0500"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/skreecher": {
+    "criteria": {
+      "killed": "2023-11-07 11:22:09 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/scoria_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2023-11-07 11:35:40 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scoria_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2023-11-07 11:35:40 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_slab_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2023-11-07 11:35:40 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/palettes/scorchia": {
+    "criteria": {
+      "has_item": "2023-11-07 11:35:40 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_scoria_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2023-11-07 11:35:40 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/scoria_pillar_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2023-11-07 11:35:40 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scoria_brick_stairs_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2023-11-07 11:35:40 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scoria_brick_wall_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2023-11-07 11:35:40 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scoria_wall_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2023-11-07 11:35:40 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scoria_bricks_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2023-11-07 11:35:40 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scoria_brick_slab_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2023-11-07 11:35:40 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_bricks_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2023-11-07 11:35:40 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scoria_slab_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2023-11-07 11:35:40 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scoria_stairs_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2023-11-07 11:35:40 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_wall_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2023-11-07 11:35:40 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_brick_wall_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2023-11-07 11:35:40 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2023-11-07 11:35:40 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_brick_stairs_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2023-11-07 11:35:40 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_brick_slab_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2023-11-07 11:35:40 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scoria_stairs_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2023-11-07 11:35:40 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/steam_engine": {
+    "criteria": {
+      "has_item": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "nature_arise:recipes/tools/copper_hoe": {
+    "criteria": {
+      "has_copper_ingot": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "nature_arise:recipes/tools/copper_shovel": {
+    "criteria": {
+      "has_copper_ingot": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/copper_diving_helmet": {
+    "criteria": {
+      "has_item": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "nature_arise:recipes/tools/copper_pickaxe": {
+    "criteria": {
+      "has_copper_ingot": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/copper_valve_handle": {
+    "criteria": {
+      "has_item": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/copper_valve_handle_from_others": {
+    "criteria": {
+      "has_item": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "nature_arise:recipes/combat/copper_helmet": {
+    "criteria": {
+      "has_copper_ingot": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/copper_bars_from_ingots_copper_stonecutting": {
+    "criteria": {
+      "has_ingots_copper": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/copper_nugget": {
+    "criteria": {
+      "has_item": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "ironchest:recipes/decorations/chests/vanilla_copper_chest": {
+    "criteria": {
+      "has_copper_ingot": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/fluid_valve": {
+    "criteria": {
+      "has_item": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/copper_ladder_from_ingots_copper_stonecutting": {
+    "criteria": {
+      "has_ingots_copper": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "nature_arise:recipes/combat/copper_boots": {
+    "criteria": {
+      "has_copper_ingot": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/steam_whistle": {
+    "criteria": {
+      "has_item": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/copper_backtank": {
+    "criteria": {
+      "has_item": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "beautify:lamps": {
+    "criteria": {
+      "requirement": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "create:copper": {
+    "criteria": {
+      "0": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "nature_arise:recipes/combat/copper_chestplate": {
+    "criteria": {
+      "has_copper_ingot": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "ironchest:recipes/decorations/upgrades/wood_to_copper_chest_upgrade": {
+    "criteria": {
+      "has_copper_ingot": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/copper_tiles_from_ingots_copper_stonecutting": {
+    "criteria": {
+      "has_ingots_copper": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/fluid_pipe_vertical": {
+    "criteria": {
+      "has_item": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_pump": {
+    "criteria": {
+      "has_item": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "nature_arise:recipes/combat/copper_leggings": {
+    "criteria": {
+      "has_copper_ingot": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/copper_diving_boots": {
+    "criteria": {
+      "has_item": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "nature_arise:recipes/misc/copper_nugget": {
+    "criteria": {
+      "has_copper_ingot": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/smart_fluid_pipe": {
+    "criteria": {
+      "has_item": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "nature_arise:recipes/tools/copper_sword": {
+    "criteria": {
+      "has_copper_ingot": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/copper_shingles_from_ingots_copper_stonecutting": {
+    "criteria": {
+      "has_ingots_copper": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/fluid_pipe": {
+    "criteria": {
+      "has_item": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/copper_scaffolding_from_ingots_copper_stonecutting": {
+    "criteria": {
+      "has_ingots_copper": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/hose_pulley": {
+    "criteria": {
+      "has_item": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "nature_arise:recipes/tools/copper_axe": {
+    "criteria": {
+      "has_copper_ingot": "2023-11-07 11:37:05 -0500"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/copper_chain": {
+    "criteria": {
+      "recipe_condition": "2023-11-07 11:37:29 -0500"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/building_blocks/super_copper_block_back": {
+    "criteria": {
+      "has_copper_block": "2023-11-07 11:37:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_stairs_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2023-11-07 11:37:29 -0500"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/building_blocks/super_ore_block": {
+    "criteria": {
+      "has_copper_block": "2023-11-07 11:37:29 -0500"
+    },
+    "done": true
+  },
+  "nature_arise:recipes/misc/copper_wall_from_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2023-11-07 11:37:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2023-11-07 11:37:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot": {
+    "criteria": {
+      "has_copper_block": "2023-11-07 11:37:29 -0500"
+    },
+    "done": true
+  },
+  "nature_arise:recipes/redstone/copper_pressure_plate": {
+    "criteria": {
+      "has_copper_block": "2023-11-07 11:37:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2023-11-07 11:37:29 -0500"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/building_blocks/super_copper_block": {
+    "criteria": {
+      "has_copper_block": "2023-11-07 11:37:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper": {
+    "criteria": {
+      "has_copper_block": "2023-11-07 11:37:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_block_from_honeycomb": {
+    "criteria": {
+      "has_copper_block": "2023-11-07 11:37:29 -0500"
+    },
+    "done": true
+  },
+  "nature_arise:recipes/misc/copper_wall": {
+    "criteria": {
+      "has_copper_block": "2023-11-07 11:37:29 -0500"
+    },
+    "done": true
+  },
+  "super_ore_block:recipes/tools/super_tool": {
+    "criteria": {
+      "has_diamond": "2023-11-07 11:58:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2023-11-07 11:58:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2023-11-07 11:58:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2023-11-07 11:58:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2023-11-07 11:58:33 -0500"
+    },
+    "done": true
+  },
+  "constructionwand:recipes/tools/diamond_wand": {
+    "criteria": {
+      "has_item": "2023-11-07 11:58:33 -0500"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_diamond_ingot": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:gems/diamond]": "2023-11-07 11:58:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2023-11-07 11:58:33 -0500"
+    },
+    "done": true
+  },
+  "ironchest:recipes/decorations/chests/gold_diamond_chest": {
+    "criteria": {
+      "has_diamonds": "2023-11-07 11:58:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2023-11-07 11:58:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2023-11-07 11:58:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2023-11-07 11:58:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2023-11-07 11:58:33 -0500"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/diamond_chain": {
+    "criteria": {
+      "recipe_condition": "2023-11-07 11:58:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2023-11-07 11:58:33 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/diamond_knife": {
+    "criteria": {
+      "has_diamond": "2023-11-07 11:58:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2023-11-07 11:58:33 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/diamond_fillet_knife": {
+    "criteria": {
+      "has_items": "2023-11-07 11:58:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2023-11-07 11:58:33 -0500"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/rose_gold_dust": {
+    "criteria": {
+      "has_item": "2023-11-07 12:25:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2023-11-07 12:25:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2023-11-07 12:25:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2023-11-07 12:25:21 -0500"
+    },
+    "done": true
+  },
+  "artifacts:chest_slayer": {
+    "criteria": {
+      "kill_mimic": "2023-11-07 12:28:31 -0500"
+    },
+    "done": true
+  },
+  "artifacts:amateur_archaeologist": {
+    "criteria": {
+      "find_artifact": "2023-11-07 12:28:32 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_leggings": "2023-11-07 12:42:48 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_leggings": "2023-11-07 12:42:48 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2023-11-07 13:16:53 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/iron_backpack": {
+    "criteria": {
+      "has_backpack": "2023-11-07 13:23:51 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/zinc_ingot_from_raw_ore": {
+    "criteria": {
+      "has_item": "2023-11-07 16:07:49 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/blasting/zinc_ingot_from_raw_ore": {
+    "criteria": {
+      "has_item": "2023-11-07 16:07:49 -0500"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/raw_zinc_block": {
+    "criteria": {
+      "has_item": "2023-11-07 16:07:49 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2023-11-08 12:24:44 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/mixed_salad": {
+    "criteria": {
+      "has_bowl": "2023-11-08 13:38:17 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:main/master_chef": {
+    "criteria": {
+      "ratatouille": "2023-11-08 13:38:17 -0500"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2023-11-08 13:38:17 -0500"
+    },
+    "done": true
+  },
+  "netherdepthsupgrade:recipes/food/nether_salad": {
+    "criteria": {
+      "has_bowl": "2023-11-08 13:38:17 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/nether_salad": {
+    "criteria": {
+      "has_bowl": "2023-11-08 13:38:17 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:main/eat_nourishing_food": {
+    "criteria": {
+      "nourishment": "2023-11-08 13:38:17 -0500"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/goo_block": {
+    "criteria": {
+      "has_goo_ball": "2023-11-09 13:13:16 -0500"
+    },
+    "done": true
+  },
+  "undergarden:recipes/redstone/sticky_piston_from_goo_ball": {
+    "criteria": {
+      "has_goo_ball": "2023-11-09 13:13:16 -0500"
+    },
+    "done": true
+  },
+  "undergarden:recipes/misc/undergarden_lead": {
+    "criteria": {
+      "has_goo_ball": "2023-11-09 13:13:16 -0500"
     },
     "done": true
   },
